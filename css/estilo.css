@@ -1,0 +1,13 @@
+#encabezado{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20%;
+    padding: 10% 15% 20% 25%;
+    text-shadow: rebeccapurple 5px 5px 2px;
+}
+
+#encabezado:hover{
+    box-shadow: red 5px -5px 10px;
+    cursor: pointer;
+    background: peru;
+}
