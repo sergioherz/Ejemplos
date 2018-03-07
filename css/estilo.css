@@ -4,10 +4,23 @@
     margin: 20%;
     padding: 10% 15% 20% 25%;
     text-shadow: rebeccapurple 5px 5px 2px;
+    /*background:  radial-gradient(circle,rgb(54, 7, 102),brown);*/
+    /*background:linear-gradient(rgb(54, 7, 102),brown)*/
+   /* background:  radial-gradient(circle,rgb(54, 7, 102),brown);*/
+   /* background:rgba(red, green, blue, alpha);*/
+    background: hsla(50, 84%, 24%,2);
+    outline:1px dashed red;
+    outline-offset: 10px;
 }
 
 #encabezado:hover{
     box-shadow: red 5px -5px 10px;
     cursor: pointer;
     background: peru;
+   /* transform: scale(0,-1);*/
+    /*transform: rotate(50deg);*/
+    /*transform: skew(40deg);*/
+   /* transform: translate(150px);*/
+    transform: rotate(40deg) translate(150px);
+    transition: 1s ease-in-out 0.5s;
 }
